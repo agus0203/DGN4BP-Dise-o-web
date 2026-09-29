@@ -1,0 +1,66 @@
+
+nav{
+    font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+}
+
+main{
+    width: 1200px; 
+    margin: 0 auto
+    
+}
+main{
+    font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+header{
+     text-align: center;
+}
+
+
+.temporadas{
+    
+    background-color: #faf9f0;
+    padding:5px 25px 5px 30px;
+    margin: 40px 200px 40px 200px;
+    border-radius: 20px;
+    
+   
+}
+.temporadas:hover{
+    box-shadow: 0 0 15px #8b875d
+    ;
+}
+
+/* primero horizontal segundo verticul tercero difuminado. */
+.intro{
+    margin: 5px 300px 2px 300px ;
+}
+
+.descrippersonajes{
+    margin: 0px 100px 5px 200px;
+}
+
+
+.iconic{
+    text-align: center;
+}
+
+footer{
+    background-color: aliceblue;
+    text-align: center;
+    padding:10px;
+}
+
+.personajes:hover{
+    
+     filter: drop-shadow(0 0 5px black);
+     
+}
