@@ -64,3 +64,9 @@ footer{
      filter: drop-shadow(0 0 5px black);
      
 }
+
+form{
+    width: 50wv;
+    display: flex;
+    flex-direction: column;
+}
