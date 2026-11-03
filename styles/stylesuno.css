@@ -53,11 +53,7 @@ header{
     text-align: center;
 }
 
-footer{
-    background-color: aliceblue;
-    text-align: center;
-    padding:10px;
-}
+
 
 .personajes:hover{
     
@@ -69,4 +65,27 @@ form{
     width: 50wv;
     display: flex;
     flex-direction: column;
+}
+
+.confirmacion{
+    text-align: center;
+    
+}
+
+footer{
+    background-color: aliceblue;
+    text-align: center;
+    padding:10px;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+main{
+    flex: auto;
 }
