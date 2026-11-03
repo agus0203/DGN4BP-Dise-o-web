@@ -40,13 +40,18 @@ header{
 }
 
 /* primero horizontal segundo verticul tercero difuminado. */
+
+
 .intro{
+
     margin: 5px 300px 2px 300px ;
+    display: flex;
+
+    justify-content: space-around;
+   
 }
 
-.descrippersonajes{
-    margin: 0px 100px 5px 200px;
-}
+
 
 
 .iconic{
@@ -88,4 +93,28 @@ body{
 
 main{
     flex: auto;
+}
+
+
+.descrippersonajes{
+    margin:0px 200px 10px 0px;
+}
+.centrado{
+    display: flex;
+    justify-content:left
+
+}
+
+main.personajes{
+    text-align: left;
+    margin-left: 100px;
+}
+
+.introcentrado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+    
+    
 }
